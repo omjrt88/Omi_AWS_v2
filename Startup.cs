@@ -27,6 +27,19 @@ namespace OMI_AWS_v2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            #region Adding swagger Section
+            // https://www.c-sharpcorner.com/article/asp-net-core-3-1-web-api-and-swagger/
+            // services.AddSingleton<IPlaceInfoService, PlaceInfoService>();
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Title = "Place Info Service API",
+                    Version = "v2",
+                    Description = "Sample service for Learner",
+                });
+            });
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline
@@ -51,6 +64,11 @@ namespace OMI_AWS_v2
                     await context.Response.WriteAsync("Welcome to running ASP.NET Core on AWS Lambda");
                 });
             });
+
+            #region Adding swagger Section
+            app.UseSwagger();
+            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "PlaceInfo Services"));
+            #endregion
         }
     }
 }

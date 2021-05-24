@@ -26,3 +26,8 @@ C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\obj\Debug\netcoreapp3.1\OMI_AWS_v2.csproj
 C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\obj\Debug\netcoreapp3.1\OMI_AWS_v2.dll
 C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\obj\Debug\netcoreapp3.1\OMI_AWS_v2.pdb
 C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\obj\Debug\netcoreapp3.1\OMI_AWS_v2.genruntimeconfig.cache
+C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\obj\Debug\netcoreapp3.1\OMI_AWS_v2.MvcApplicationPartsAssemblyInfo.cs
