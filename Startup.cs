@@ -34,9 +34,9 @@ namespace OMI_AWS_v2
             {
                 options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "Place Info Service API",
+                    Title = "Omi Testing aws with swagger",
                     Version = "v2",
-                    Description = "Sample service for Learner",
+                    Description = "Omi Testing aws with swagger",
                 });
             });
             #endregion
@@ -61,13 +61,19 @@ namespace OMI_AWS_v2
                 endpoints.MapControllers();
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Welcome to running ASP.NET Core on AWS Lambda");
+                    await context.Response.WriteAsync("Welcome to running ASP.NET Core on AWS Lambda, Omi is testing!");
                 });
             });
 
             #region Adding swagger Section
             app.UseSwagger();
-            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "PlaceInfo Services"));
+            //app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "Omi Testing aws with swagger"));
+            app.UseSwaggerUI(c =>
+            {
+                string endpointUrl =
+                    $"{(string.IsNullOrEmpty(Environment.GetEnvironmentVariable("AWS_LAMBDA_FUNCTION_NAME")) ? string.Empty : "/Prod")}/swagger/v2/swagger.json";
+                c.SwaggerEndpoint(endpointUrl, "Omi Testing aws with swagger");
+            });
             #endregion
         }
     }
