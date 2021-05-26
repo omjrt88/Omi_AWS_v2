@@ -13,6 +13,7 @@ C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\bin\Release\netcoreapp3.1\publish\Amazon.
 C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Logging.AspNetCore.dll
 C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
 C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\bin\Release\netcoreapp3.1\publish\Microsoft.OpenApi.dll
+C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\bin\Release\netcoreapp3.1\publish\Newtonsoft.Json.dll
 C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\bin\Release\netcoreapp3.1\publish\Swashbuckle.AspNetCore.Swagger.dll
 C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\bin\Release\netcoreapp3.1\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\bin\Release\netcoreapp3.1\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

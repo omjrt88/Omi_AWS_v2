@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using OMI_AWS_v2.Models;
 
 namespace OMI_AWS_v2
 {
@@ -40,6 +41,9 @@ namespace OMI_AWS_v2
                 });
             });
             #endregion
+            // Okta configuration
+            services.Configure<OktaSettings>(Configuration.GetSection("Okta"));
+            services.AddOptions();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline
@@ -64,6 +68,8 @@ namespace OMI_AWS_v2
                     await context.Response.WriteAsync("Welcome to running ASP.NET Core on AWS Lambda, Omi is testing!");
                 });
             });
+
+            app.UseAuthentication();
 
             #region Adding swagger Section
             app.UseSwagger();

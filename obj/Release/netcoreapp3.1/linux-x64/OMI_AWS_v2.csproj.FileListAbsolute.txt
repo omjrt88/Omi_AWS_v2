@@ -31,3 +31,4 @@ C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\bin\Release\netcoreapp3.1\linux-x64\Swash
 C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\bin\Release\netcoreapp3.1\linux-x64\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\bin\Release\netcoreapp3.1\linux-x64\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\obj\Release\netcoreapp3.1\linux-x64\OMI_AWS_v2.MvcApplicationPartsAssemblyInfo.cs
+C:\MyStuff\MyScripts\CSharp\OMI_AWS_v2\bin\Release\netcoreapp3.1\linux-x64\Newtonsoft.Json.dll
